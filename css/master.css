@@ -1,0 +1,37 @@
+body{
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+.color-blue{
+  background: #009190;
+}
+.mayus{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+}
+.bg{
+  background: url('../img/bg.jpeg')  ;
+  height: 100%;
+}
+.nav-button:hover{
+
+  background: #ffdc08;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+/*
+ banana #ffdc08
+mano #009190
+letras #01d59a
+*/
