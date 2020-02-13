@@ -17,7 +17,6 @@ body{
   height: 100%;
 }
 .nav-button:hover{
-
   background: #ffdc08;
 }
 
@@ -28,6 +27,14 @@ body{
 .dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
     pointer-events: none;
+}
+.dropleft .dropdown-menu {
+  left: auto;
+  top: 2em!important;
+  right: -1rem!important;
+}
+.btn-banano{
+    background: #ffdc08!important;
 }
 
 /*
