@@ -1,4 +1,4 @@
-/*body{
+body{
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 .color-blue{
@@ -22,10 +22,10 @@
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-}*/
+}
 
-/*.dropdown>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
 .dropleft .dropdown-menu {
@@ -35,35 +35,10 @@
 }
 .btn-banano{
     background: #ffdc08!important;
-}*/
+}
 
 /*
  banana #ffdc08
 mano #009190
 letras #01d59a
 */
-@media only screen and (max-width: 767px) {
-  #slide-navbar-collapse {
-    position: fixed;
-    top: 0;
-    left: 15px;
-    z-index: 99;
-    width: 280px;
-    height: 100%;
-    background-color: #ddd;
-    overflow: auto;
-  }
-  .menu-overlay {
-    display: none;
-    background-color: #000;
-    bottom: 0;
-    left: 0;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    /* IE7 & 8 */
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 49;
-  }
-}
