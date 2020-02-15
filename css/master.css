@@ -16,22 +16,51 @@ body{
   background: url('../img/bg.jpeg')  ;
   height: 100%;
 }
+.bg-slide{
+  background: url('../img/BananosGaming.jpg')  ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+}
+.hero{
+  height: 100vh;
+}
 .nav-button:hover{
   background: #ffdc08;
+  border-radius: 1rem;
 }
-
-.dropdown:hover>.dropdown-menu {
-  display: block;
+.dropdown-menu{
+  width: 25rem;
 }
-
-.dropdown>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-}
-.dropleft .dropdown-menu {
+.dropdown-menu {
   left: auto!important;
   top: 2rem!important;
   right: -1rem!important;
+}
+.flex{
+  display: flex;
+}
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .justify-content{
+    justify-content: flex-end;;
+  }
+}
+@media (max-width: 768px) {
+  .justify-content{
+    justify-content: center;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: none;
+  }
 }
 .btn-banano{
     background: #ffdc08!important;
@@ -42,51 +71,3 @@ body{
 mano #009190
 letras #01d59a
 */
-@media (max-width: 768px) {
-    .navbar-collapse {
-        position: absolute;
-        top: 54px;
-        left: 0;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-    }
-    .navbar-collapse.collapsing {
-        height: auto;
-        -webkit-transition: left 0.3s ease;
-        -o-transition: left 0.3s ease;
-        -moz-transition: left 0.3s ease;
-        transition: left 0.3s ease;
-        left: -100%;
-    }
-    .navbar-collapse.show {
-        left: 0;
-        -webkit-transition: left 0.3s ease-in;
-        -o-transition: left 0.3s ease-in;
-        -moz-transition: left 0.3s ease-in;
-        transition: left 0.3s ease-in;
-    }
-}
-@media (max-width: 992px) {
-    .navbar-collapse {
-        position: absolute;
-        top: 54px;
-        right: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-        transition: all 0.3s ease;
-        display: block;
-    }
-    .navbar-collapse.collapsing {
-        height: auto !important;
-        margin-right: 50%;
-        transition: all 0.3s ease;
-        display: block;
-    }
-    .navbar-collapse.show {
-        right: 0;
-    }
-}
