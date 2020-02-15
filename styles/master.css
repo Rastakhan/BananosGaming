@@ -41,7 +41,9 @@ body{
 .flex{
   display: flex;
 }
-
+.carousel-item{
+  height: 50vh;
+}
 
 @media (min-width: 901px) {
   .dropdown:hover>.dropdown-menu {
@@ -63,6 +65,9 @@ body{
     background: #ffdc08!important;
 }
 
+.img-car{
+  height: auto;
+}
 /*
  banana #ffdc08
 mano #009190

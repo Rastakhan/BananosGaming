@@ -10,18 +10,18 @@
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/master.css">
-    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/master.css">
+    <link href="../css/all.css" rel="stylesheet">
 
     <!-- Title -->
-    <title>Bananos Gaming!</title>
+    <title>Ban</title>
   </head>
   <body class="bg">
     <header>
       <div class="container-fluid color-blue fixed-top">
         <div class="container mayus">
           <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between w-100 flex-row">
-              <a class="navbar-brand" href="">
+              <a class="navbar-brand" href="../index.html">
                 <img src="img/BananosGaming.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Bananos Gaming
               </a>
@@ -33,7 +33,7 @@
               <div class="collapse navbar-collapse flex justify-content" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex justify-content-end">
                   <li class="nav-item dropdown">
-                    <a class="nav-link nav-button" href="views/bananews.html" id="navbarDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link nav-button" href="" id="navbarDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
                       Bananews!
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -75,56 +75,38 @@
       </div>
     </header>
 
-    <main> <!-- container main -->
+    <main class="container-fluid"><!-- Main  -->
+      <div class="container">
 
-
-        <div class="container-fluid bg-slide img-fluid py-5"><!-- slide main -->
-          <div class="container d-flex flex-column justify-content-center h-100 align-items-center">
-            <h1>Bananos Gamming!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="">
-              <a href="#">Leer mas!</a>
+        <div class="py-5 w-100"><!-- carousel  -->
+          <div id="carouselnews" class="carousel slide carousel-fade h-50" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item d-flex align-items-center active">
+                <img src="../img/first.jpg" class="d-block w-100 img-car img-fluid" alt="...">
+              </div>
+              <div class="carousel-item d-flex align-items-center">
+                <img src="../img/second.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item d-flex align-items-center">
+                <img src="../img/third.png" class="d-block w-100 img-fluid" alt="...">
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselnews" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselnews" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-        </div><!-- /slide main -->
+        </div><!-- /carousel  -->
 
-        <div class="container-fluid py-5 op"><!-- section 1 -->
-          <div class="row align-items-center text-right op-1">
-            <div class="col-md-6">
-              <h2><b>Lorem ipsum dolor sit amet</b></h2>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="col-md-6">
-              <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="">
-            </div>
-          </div>
-        </div><!-- /section 1 -->
+      </div>
+    </main><!-- /Main  -->
 
-        <div class="container-fluid py-5 op"><!-- section 2 -->
-          <div class="row align-items-center text-left">
-            <div class="col-md-6">
-              <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="">
-            </div>
-            <div class="col-md-6">
-              <h2><b>Lorem ipsum dolor sit amet</b></h2>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-          </div>
-        </div><!-- /section 2 -->
-        <div class="container-fluid py-5 bg-info text-center text white"><!-- section 3 -->
-          <div class="container">
-            <h2>Siguenos en nuestras redes sociales</h2>
-            <div class="display-4">
-              <i class="fab fa-instagram pr-5" aria-hidden="true"></i>
-              <i class="fab fa-facebook pr-5" aria-hidden="true"></i>
-              <i class="fab fa-youtube" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div><!-- /section 3 -->
 
-    </main><!-- /container main -->
+
 
     <footer><!-- footer  -->
       <div class="container-fluid bg-secondary text-white py-2 text-center">
