@@ -26,6 +26,13 @@ body{
 .hero{
   height: 100vh;
 }
+.op{
+  background-color: rgba(255, 255, 0, .3);
+
+}
+.op-1{
+  opacity: 1!important;
+}
 .nav-button:hover{
   background: #ffdc08;
   border-radius: 1rem;
