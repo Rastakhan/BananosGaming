@@ -1,0 +1,72 @@
+<div class="container-fluid py-5">
+  <h1>Galeria</h1>
+  <span class="linea"></span>
+  <section class="galeria">
+    <a href="#imagen1">
+      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="" />
+    </a>
+    <a href="#imagen2">
+      <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="" />
+    </a>
+    <a href="#imagen3">
+      <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="" />
+    </a>
+    <a href="#imagen4">
+      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="" />
+    </a>
+    <a href="#imagen5">
+      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="" />
+    </a>
+    <a href="#imagen6">
+      <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="" />
+    </a>
+
+  </section>
+
+  <article class="light-box" id="imagen1">
+    <a href="#" class="next"><i class="fas fa-arrow-left"></i></a>
+    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="" />
+    <a href="#" class="next"><i class="fas fa-arrow-right"></i></a>
+    <a href="#" class="close">X</a>
+  </article>
+</div>
+
+
+<div class="container-fluid"><!-- art gallery -->
+   <h1></h1>
+  <div class="gallery" id="gallery">
+
+    <div class="mb-3 pics animation all 2">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap" />
+    </div>
+
+    <div class="mb-3 pics animation all 1">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap" />
+    </div>
+
+
+
+    <div class="mb-3 pics animation all 1">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap" />
+    </div>
+
+
+
+    <div class="mb-3 pics animation all 2">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap" />
+    </div>
+
+
+    <div class="mb-3 pics animation all 2">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap" />
+    </div>
+
+
+
+    <div class="mb-3 pics animation all 1">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap" />
+    </div>
+
+
+  </div>
+</div><!-- /art gallery -->
