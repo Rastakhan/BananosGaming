@@ -1,0 +1,70 @@
+.contain{
+  width: 100%;
+}
+.contain-res{
+  width: 80%;
+}
+.fixed{
+    position: fixed;
+    z-index: 1000;
+}
+.color-blue2{
+  background: rgb(0, 145, 144, 0.5);
+}
+.color-blue{
+  background: #009190;
+}
+.hero{
+  background-image: linear-gradient(to top, rgb(0, 145, 144, 0.69) 0%, rgba(172, 224, 249, .70) 100%), url(../img/b.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+.text-hero h1{
+  font-size: 5rem;
+}
+.text-hero p{
+  font-size: 1.50rem;
+}
+.text-hero a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  background: #ffdc08;
+  border-radius: .5rem;
+  color: black;
+}
+.svg-hero{
+  position: absolute;;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+.hv-15{
+  height: 15vh;
+}
+.hv-25{
+  height: 25vh;
+}
+.hv-50{
+  height: 50vh;
+}
+.hv-75{
+  height: 75vh;
+}
+.hv-85{
+  height: 85vh;
+}
+.hv-100{
+  height: 100vh;
+}

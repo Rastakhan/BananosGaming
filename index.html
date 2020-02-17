@@ -10,129 +10,145 @@
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/master.css" />
+    <link rel="stylesheet" href="styles/class.css" />
+    <link rel="stylesheet" href="styles/media.css" />
     <link href="styles/all.css" rel="stylesheet" />
 
     <!-- Title -->
     <title>Bananos Gaming!</title>
   </head>
-  <body class="bg">
-    <header>
-      <div class="container-fluid color-blue fixed-top">
-        <div class="container mayus">
-          <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between w-100 flex-row">
-              <a class="navbar-brand" href="index.html">
-                <img src="img/BananosGaming.jpg" width="30" height="30" class="d-inline-block align-top" alt="" />
-                Bananos Gaming
-              </a>
+  <body>
+    <div id="inicio" class="contain"><!-- Grid -->
 
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+      <div id="menu" class="contain d-flex justify-content-center mayus fixed"><!-- Navbar ful -->
+        <div class="contain-res"><!-- Navbar cont -->
 
-              <div class="collapse navbar-collapse flex justify-content" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex justify-content-end">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link nav-button" href="views/bananews.html" id="navbarDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
-                      Bananews!
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Pc</a>
-                      <a class="dropdown-item" href="#">Xbox</a>
-                      <a class="dropdown-item" href="#">PlayStation</a>
-                      <a class="dropdown-item" href="#">Nintendo</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link nav-button" href="views/bananart.html">Bananart</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link nav-button" href="" id="articulosDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
-                      Articulos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="articulosDropdown">
-                      <a class="dropdown-item" href="#">Cosplays</a>
-                      <a class="dropdown-item" href="#">Tops</a>
-                      <a class="dropdown-item" href="#">Reseñas</a>
-                      <a class="dropdown-item" href="#">Geek</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link nav-button" href="#">Bananos</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link nav-button" href="" id="loginDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
-                      Login
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="loginDropdown">
-                      <span>Inicia sesión con tu cuenta</span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-          </nav>
-        </div>
-      </div>
-    </header>
+            <nav class="navbar navbar-expand-lg navbar-light contain d-flex justify-content-between">
 
-    <main> <!-- container main -->
+                <div class=""><!-- Navbar left -->
+                  <a class="navbar-brand" href="#inicio">
+                    <img src="img/BananosGaming.jpg" class="d-inline-block align-top" alt="" /> Bananos Gaming</a>
+                </div><!-- /Navbar left -->
 
+                <div class=""><!-- /Navbar right mobile-->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div><!-- /Navbar right mobile-->
 
-        <div class="container-fluid bg-slide img-fluid py-5"><!-- slide main -->
-          <div class="container d-flex flex-column justify-content-center h-100 align-items-center">
-            <h1>Bananos Gamming!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="">
+                <div class="collapse navbar-collapse flex justify-content" id="navbarSupportedContent">
+                  <ul class="navbar-nav d-flex justify-content-end">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link nav-button" href="views/bananews.html" id="navbarDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                        Bananews!
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Pc</a>
+                        <a class="dropdown-item" href="#">Xbox</a>
+                        <a class="dropdown-item" href="#">PlayStation</a>
+                        <a class="dropdown-item" href="#">Nintendo</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-button" href="views/bananart.html">Bananart</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link nav-button" href="" id="articulosDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                        Articulos
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="articulosDropdown">
+                        <a class="dropdown-item" href="#">Cosplays</a>
+                        <a class="dropdown-item" href="#">Tops</a>
+                        <a class="dropdown-item" href="#">Reseñas</a>
+                        <a class="dropdown-item" href="#">Geek</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-button" href="#">Bananos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link nav-button" href="" id="loginDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                        Login
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="loginDropdown">
+                        <span>Inicia sesión con tu cuenta</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+            </nav>
+
+        </div><!-- /Navbar cont -->
+      </div><!-- /Navbar ful -->
+
+      <div class="d-flex justify-content-center flex-column align-items-center"> <!-- container main -->
+
+        <div id="menu" class="contain hero"><!-- slide main -->
+          <div class="d-flex justify-content-center align-items-center flex-column text-hero hv-85">
+              <h1><b>Bananos Gamming!</b></h1>
+              <p><b>El mejor canal de videojuegos</b></p>
               <a href="#">Leer mas!</a>
             </div>
-          </div>
-        </div><!-- /slide main -->
+            <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: rgba(255,255,255);"></path>
+                </svg></div>
+          </div><!-- /slide main -->
 
-        <div class="container-fluid py-5 op"><!-- section 1 -->
-          <div class="row align-items-center text-right op-1">
-            <div class="col-md-6">
-              <h2><b>Lorem ipsum dolor sit amet</b></h2>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="col-md-6">
-              <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="" />
-            </div>
-          </div>
-        </div><!-- /section 1 -->
 
-        <div class="container-fluid py-5 op"><!-- section 2 -->
-          <div class="row align-items-center text-left">
-            <div class="col-md-6">
-              <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="" />
+          <div class="contain-res"><!-- section 2 -->
+            <div class="row align-items-center text-left">
+              <div class="col-md-6">
+                <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="" />
+              </div>
+              <div class="col-md-6">
+                <h2><b>Lorem ipsum dolor sit amet</b></h2>
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+              </div>
             </div>
-            <div class="col-md-6">
-              <h2><b>Lorem ipsum dolor sit amet</b></h2>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div><!-- /section 2 -->
+
+          <div class="contain-res py-5"><!-- section 2 -->
+            <div class="row align-items-center text-left">
+              <div class="col-md-6">
+                <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="" />
+              </div>
+              <div class="col-md-6">
+                <h2><b>Lorem ipsum dolor sit amet</b></h2>
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+              </div>
             </div>
-          </div>
-        </div><!-- /section 2 -->
-        <div class="container-fluid py-5 bg-info text-center text white"><!-- section 3 -->
+          </div><!-- /section 2 -->
+
+          <div class="contain py-5 bg-info d-flex align-items-center justify-content-center"><!-- section 3 -->
+            <div class="contain-res d-flex align-items-center flex-column">
+              <h2>Siguenos en nuestras redes sociales</h2>
+              <div class="display-4">
+                <i class="fab fa-instagram pr-5" aria-hidden="true"></i>
+                <i class="fab fa-facebook pr-5" aria-hidden="true"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div><!-- /section 3 -->
+
+      </div><!-- /container main -->
+
+      <footer><!-- footer  -->
+        <div class="container-fluid bg-secondary text-white py-2 text-center">
           <div class="container">
-            <h2>Siguenos en nuestras redes sociales</h2>
-            <div class="display-4">
-              <i class="fab fa-instagram pr-5" aria-hidden="true"></i>
-              <i class="fab fa-facebook pr-5" aria-hidden="true"></i>
-              <i class="fab fa-youtube" aria-hidden="true"></i>
-            </div>
+            <span>Propiedad de Bananos Gaming</span>
           </div>
-        </div><!-- /section 3 -->
-
-    </main><!-- /container main -->
-
-    <footer><!-- footer  -->
-      <div class="container-fluid bg-secondary text-white py-2 text-center">
-        <div class="container">
-          <span>Propiedad de Bananos Gaming</span>
         </div>
-      </div>
-    </footer><!-- /footer  -->
+      </footer><!-- /footer  -->
+
+
+    </div><!-- /grid -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -143,5 +159,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function() {
+        if($("#menu").offset().top > 200) {
+          $("#menu").addClass("color-blue2");
+        } else {
+            $("#menu").removeClass("color-blue2");
+        }
+      });
+    </script>
   </body>
 </html>

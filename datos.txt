@@ -32,41 +32,63 @@
 </div>
 
 
-<div class="container-fluid"><!-- art gallery -->
-   <h1></h1>
-  <div class="gallery" id="gallery">
+<div> <!-- container main -->
 
-    <div class="mb-3 pics animation all 2">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap" />
+
+    <div id="menu" class="container-fluid bg-slide img-fluid py-5"><!-- slide main -->
+      <div class="container d-flex flex-column justify-content-center h-100 align-items-center">
+        <h1>Bananos Gamming!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="">
+          <a href="#">Leer mas!</a>
+        </div>
+      </div>
+    </div><!-- /slide main -->
+
+    <div class="container-fluid py-5 op"><!-- section 2 -->
+      <div class="row align-items-center text-left">
+        <div class="col-md-6">
+          <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h2><b>Lorem ipsum dolor sit amet</b></h2>
+          <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+      </div>
+    </div><!-- /section 2 -->
+
+    <div class="container-fluid py-5 op"><!-- section 2 -->
+      <div class="row align-items-center text-left">
+        <div class="col-md-6">
+          <img src="img/BananosGaming.jpg" class="img-fluid" width="500px" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h2><b>Lorem ipsum dolor sit amet</b></h2>
+          <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+      </div>
+    </div><!-- /section 2 -->
+
+    <div class="container-fluid py-5 bg-info text-center text white"><!-- section 3 -->
+      <div class="container">
+        <h2>Siguenos en nuestras redes sociales</h2>
+        <div class="display-4">
+          <i class="fab fa-instagram pr-5" aria-hidden="true"></i>
+          <i class="fab fa-facebook pr-5" aria-hidden="true"></i>
+          <i class="fab fa-youtube" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div><!-- /section 3 -->
+
+</div><!-- /container main -->
+
+
+<footer><!-- footer  -->
+  <div class="container-fluid bg-secondary text-white py-2 text-center">
+    <div class="container">
+      <span>Propiedad de Bananos Gaming</span>
     </div>
-
-    <div class="mb-3 pics animation all 1">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap" />
-    </div>
-
-
-
-    <div class="mb-3 pics animation all 1">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap" />
-    </div>
-
-
-
-    <div class="mb-3 pics animation all 2">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap" />
-    </div>
-
-
-    <div class="mb-3 pics animation all 2">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap" />
-    </div>
-
-
-
-    <div class="mb-3 pics animation all 1">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap" />
-    </div>
-
-
   </div>
-</div><!-- /art gallery -->
+</footer><!-- /footer  -->
