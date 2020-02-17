@@ -19,25 +19,7 @@ html{
   scroll-behavior: smooth;
 }
 
-/* Gallery  B*/
-.gallery{
-  width: 100%;
-  overflow: hidden;
-}
-.gallery > a {
-  overflow: hidden;
-}
-.gallery img {
-  width: 100%;
-  height: 15rem;
-  margin: 1rem;
-  object-fit: cover;
-  object-position: center;
-  box-shadow: 0 0 6px rgba(0,0,0,.5);
-}
 
-
-/* /Gallery B*/
 
 /* Gallery */
 .galeria{

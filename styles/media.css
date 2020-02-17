@@ -1,7 +1,4 @@
 @media (max-width: 576px) {
-  .col-6{
-    height: 15rem!important;
-  }
   .hidden-es{
     display: none
   }
@@ -12,11 +9,85 @@
     width: 100%;
   }
   .hv-50{
-    height: inherit;
+    height: 25vh;
   }
   .carousel-item{
-    height: inherit;
+    height: 100%;
   }
+  .text-net {
+    align-items: center;
+  }
+  .col-4{
+    height: 6rem!important;
+    padding: 0!important;
+    margin: 0!important;
+  }
+  .col-4 img{
+    padding: 0!important;
+    margin: .5rem!important;
+  }
+  .cl-2{
+    width: 100%;
+  }
+  .gallery > a {
+    width: 30%;
+    height: 15rem;
+  }
+  .gallery img {
+    box-shadow: none;
+  }
+  .cl-es {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
+@media (max-width: 768px){
+  .cl-md{
+    width: 100%;
+  }
+  .cl-md-9{
+    width: 66%;
+  }
+  .cl-md-6{
+    width: 50%;
+  }
+  .cl-md-4{
+    width: 33%;
+  }
+  .cl-md-3{
+    width: 33%;
+  }
+}
+@media (min-width: 992px){
+  .cl-lg{
+    width: 100%;
+  }
+  .cl-lg-9{
+    width: 66%;
+  }
+  .cl-lg-6{
+    width: 50%;
+  }
+  .cl-lg-4{
+    width: 33%;
+  }
+  .cl-lg-3{
+    width: 33%;
+  }
+}
+@media (min-width: 1200px){
+  .cl-xl{
+    width: 100%;
+  }
+  .cl-xl-6{
+    width: 50%;
+  }
+  .cl-xl-4{
+    width: 33%;
+  }
+
 }
 @media (min-width: 901px) {
   .dropdown:hover>.dropdown-menu {

@@ -3,39 +3,48 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 
     <!-- CSS -->
     <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/master.css" />
+    <link rel="stylesheet" href="../styles/class.css" />
+    <link rel="stylesheet" href="../styles/media.css" />
     <link href="../styles/all.css" rel="stylesheet" />
 
     <!-- Title -->
     <title>Bananart</title>
   </head>
-  <body class="bg">
-    <div class="d-flex w-100 flex-column"><!-- grid -->
+  <body>
+    <div class="contain"><!-- Grid -->
 
-        <div class="container-fluid color-blue w-100"><!-- NavBar  -->
-          <div class="container mayus">
-            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between w-100 flex-row">
-                <a class="navbar-brand" href="../index.html">
-                  <img src="../img/BananosGaming.jpg" width="30" height="30" class="d-inline-block align-top" alt="" />
-                  Bananos Gaming
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+      <div id="menu" class="contain d-flex  color-blue2 justify-content-center mayus fixed h-navabar"><!-- Navbar ful -->
+        <div class="contain-res"><!-- Navbar cont -->
+
+            <nav class="navbar navbar-expand-lg navbar-light contain d-flex justify-content-between">
+
+                <div class=""><!-- Navbar left -->
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../img/BananosGaming.jpg" class="d-inline-block align-top" alt="" /> Bananos Gaming</a>
+                </div><!-- /Navbar left -->
+
+                <div class=""><!-- /Navbar right mobile-->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div><!-- /Navbar right mobile-->
+
                 <div class="collapse navbar-collapse flex justify-content" id="navbarSupportedContent">
                   <ul class="navbar-nav d-flex justify-content-end">
                     <li class="nav-item dropdown">
-                      <a class="nav-link nav-button" href="bananews.html" id="newsDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                      <a class="nav-link nav-button" href="bananews.html" id="navbarDropdown" role="" data-toggle="" aria-haspopup="true" aria-expanded="false">
                         Bananews!
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="newsDropdown">
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Pc</a>
                         <a class="dropdown-item" href="#">Xbox</a>
                         <a class="dropdown-item" href="#">PlayStation</a>
@@ -69,143 +78,146 @@
                     </li>
                   </ul>
                 </div>
+
             </nav>
+
+        </div><!-- /Navbar cont -->
+      </div><!-- /Navbar ful -->
+
+      <div class="contain hd-navbar d-flex justify-content-center flex-column align-items-center"><!-- main contain -->
+
+        <div class=" contain-resful"><!-- carousel  -->
+          <div id="carouselnews" class="carousel slide carousel-fade " data-ride="carousel">
+            <div class="carousel-inner hv-50">
+              <div class="carousel-item d-flex align-items-center active">
+                <img src="../img/car-dave-1.jpg" class="d-block w-100 img-auto img-fluid" alt="..." />
+              </div>
+              <div class="carousel-item d-flex align-items-center">
+                <img src="../img/second.jpg" class="d-block w-100 img-auto img-fluid" alt="..." />
+              </div>
+              <div class="carousel-item d-flex align-items-center">
+                <img src="../img/third.png" class="d-block w-100 img-auto img-fluid" alt="..." />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselnews" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselnews" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-        </div><!-- /NavBar  -->
 
-        <div class="container"><!-- Main  -->
+        </div><!-- /carousel  -->
 
-          <div class="w-100"><!-- carousel  -->
-            <div id="carouselnews" class="carousel slide carousel-fade hv-50" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item d-flex align-items-center active">
-                  <img src="../img/car-dave-1.jpg" class="d-block w-100 img-auto img-fluid" alt="..." />
-                </div>
-                <div class="carousel-item d-flex align-items-center">
-                  <img src="../img/second.jpg" class="d-block w-100 img-auto img-fluid" alt="..." />
-                </div>
-                <div class="carousel-item d-flex align-items-center">
-                  <img src="../img/third.png" class="d-block w-100 img-auto img-fluid" alt="..." />
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselnews" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselnews" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+        <div class="contain-resful d-flex flex-wrap bg-white"><!-- Sacial Network  -->
+
+            <div class="d-flex justify-content-center hv-25 cl-2">
+              <img src="../img/dave.jpg" class="img-fluid img-auto"  alt="" />
             </div>
-          </div><!-- /carousel  -->
 
-          <div class="container-fluid bg-white mg-5"><!-- Sacial Network 2 -->
-            <div class="row bg-white align-items-center text-left">
-              <div class="col-md-6 col-sm-12 d-flex justify-content-center hv-25">
-                <img src="../img/dave.jpg" class="img-fluid img-auto"  alt="" />
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <h2><b>Sigue a Darsfake en su redes sociales</b></h2>
-                <div class="d-flex flex-column">
-                  <a href="https://www.instagram.com/darsfake/?hl=en" target="_blank"><i class="fab fa-instagram pr-5" aria-hidden="true"></i>@Darsfake</a>
-                  <a href="https://www.facebook.com/darsfake/" target="_blank"><i class="fab fa-facebook pr-5" aria-hidden="true"></i>/Darsfake</a>
-                  <a href="https://www.youtube.com/user/darsfake" target="_blank"><i class="fab fa-youtube pr-5" aria-hidden="true"></i>Alejandro Santiago</a>
-                </div>
+            <div class="contain-resful  text-net d-flex flex-column cl-2">
+              <h2><b>Sigue a Darsfake en su redes sociales</b></h2>
+              <div class="d-flex flex-column">
+                <a href="https://www.instagram.com/darsfake/?hl=en" target="_blank"><i class="fab fa-instagram pr-5" aria-hidden="true"></i>@Darsfake</a>
+                <a href="https://www.facebook.com/darsfake/" target="_blank"><i class="fab fa-facebook pr-5" aria-hidden="true"></i>/Darsfake</a>
+                <a href="https://www.youtube.com/user/darsfake" target="_blank"><i class="fab fa-youtube pr-5" aria-hidden="true"></i>Alejandro Santiago</a>
               </div>
             </div>
-          </div><!-- /social Network 2 -->
 
-          <div class="container-fluid d-flex flex-column"><!-- art gallery -->
-            <div class="container-fluid d-flex justify-content-center"><!-- art gallery title -->
-              <h1>Galeria de imagenes</h1>
-            </div><!-- /art gallery title -->
+        </div><!-- /social Network  -->
 
-            <div class="row gallery container-fluid d-flex justify-content-center" id=""><!-- art gallery grid -->
-              <a class="col-xl-12 col-md-6 col-sm-12 col-6 img-fluid img-auto" href="#imagen1">
-                <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="" />
-              </a>
-              <a class="col-xl-6 col-md-6 col-sm-12 col-6 img-fluid img-auto" href="#imagen2">
-                <img class="" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="" />
-              </a>
-              <a class="col-xl-6 col-md-4 col-sm-4 col-6 img-fluid img-auto" href="#imagen3">
-                <img class="" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="" />
-              </a>
-              <a class="col-xl-4 col-md-4 col-sm-4 col-6 img-fluid img-auto" href="#imagen4">
-                <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="" />
-              </a>
-              <a class="col-xl-4 col-md-4 col-sm-4 col-6 img-fluid img-auto" href="#imagen5">
-                <img class="" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="" />
-              </a>
-              <a class="col-xl-4 col-md-6 col-sm-4 col-6 img-fluid img-auto" href="#imagen6">
-                <img class="" src="../img/dave.jpg" alt="" />
-              </a>
-              <a class="col-xl-12 col-md-6 col-sm-4 col-6" href="#imagen6">
-                <img class="" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="" />
-              </a>
-            </div><!-- /art gallery grid -->
-          </div><!-- /art gallery -->
-
-          <div class="container-fluid"><!-- Contact -->
-
-
-          </div><!-- Contact -->
-          <div class="container-fluid py-5">
-            <h1>Galeria</h1>
-            <span class="linea"></span>
-            <section class="galeria">
-              <a href="#imagen1">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="" />
-              </a>
-              <a href="#imagen2">
-                <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="" />
-              </a>
-              <a href="#imagen3">
-                <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="" />
-              </a>
-              <a href="#imagen4">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="" />
-              </a>
-              <a href="#imagen5">
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="" />
-              </a>
-              <a href="#imagen6">
-                <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="" />
-              </a>
-
-            </section>
-
-            <article class="light-box" id="imagen1">
-              <a href="#" class="next"><i class="fas fa-arrow-left"></i></a>
+        <div class="contain-resful d-flex flex-column"><!-- art gallery -->
+          <div class="container-fluid d-flex justify-content-center"><!-- art gallery title -->
+            <h1>Galeria de imagenes</h1>
+          </div><!-- /art gallery title -->
+          <div class="contain-resful gallery d-flex justify-content-center flex-wrap "><!-- art gallery grid -->
+            <a id="i1" href="#imagen1" class="cl-es cl-md cl-lg cl-xl">
               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="" />
-              <a href="#" class="next"><i class="fas fa-arrow-right"></i></a>
-              <a href="#" class="close">X</a>
-            </article>
-          </div>
+            </a>
+            <a id="i2" href="#imagen2" class="cl-es cl-md-9 cl-lg-6 cl-xl-6">
+              <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="" />
+            </a>
+            <a id="i3" href="#imagen3" class="cl-es cl-md-3 cl-lg-6 cl-xl-6">
+              <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="" />
+            </a>
+            <a id="i4" href="#imagen4" class="cl-es cl-md-6 cl-lg-6 cl-xl-4">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="" />
+            </a>
+            <a id="i5" href="#imagen5" class="cl-es cl-md-6 cl-lg-6 cl-xl-4">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="" />
+            </a>
+            <a id="i6" href="#imagen6" class="cl-es cl-md-3 cl-lg-3 cl-xl-4">
+              <img src="../img/dave.jpg" alt="" />
+            </a>
+            <a id="i7" href="#imagen7" class="cl-es cl-md-9 cl-lg-9 cl-xl">
+              <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="" />
+            </a>
+
+          </div><!-- /art gallery grid -->
+        </div><!-- /art gallery -->
+
+        <article class="light-box" id="imagen1">
+          <a href="#imagen7" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="" />
+          <a href="#imagen2" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i1" class="close">X</a>
+        </article>
+        <article class="light-box" id="imagen2">
+          <a href="#imagen1" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="" />
+          <a href="#imagen3" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i2" class="close">X</a>
+        </article>
+        <article class="light-box" id="imagen3">
+          <a href="#imagen2" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="" />
+          <a href="#imagen4" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i3" class="close">X</a>
+        </article>
+        <article class="light-box" id="imagen4">
+          <a href="#imagen3" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="" />
+          <a href="#imagen5" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i4" class="close">X</a>
+        </article>
+        <article class="light-box" id="imagen5">
+          <a href="#imagen4" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="" />
+          <a href="#imagen6" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i5" class="close">X</a>
+        </article>
+        <article class="light-box" id="imagen6">
+          <a href="#imagen5" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="../img/dave.jpg" alt="" />
+          <a href="#imagen7" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i6" class="close">X</a>
+        </article>
+        <article class="light-box" id="imagen7">
+          <a href="#imagen6" class="next"><i class="fas fa-arrow-left"></i></a>
+          <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="" />
+          <a href="#imagen1" class="next"><i class="fas fa-arrow-right"></i></a>
+          <a href="#i7" class="close">X</a>
+        </article>
+
+      </div><!-- main contain -->
+
+#
 
 
 
-        </div><!-- /Main  -->
-
-      <footer><!-- footer  -->
-        <div class="container-fluid bg-secondary text-white py-2 text-center">
-          <div class="container">
-            <span>Propiedad de Bananos Gaming</span>
-          </div>
-        </div>
-      </footer><!-- /footer  -->
-
-    </div><!-- grid -->
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="../scripts/scripts.js"></script>
+    </div><!-- /grid -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->#
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>#
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
   </body>
-</html>
+</html#>#
