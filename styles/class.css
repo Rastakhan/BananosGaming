@@ -54,6 +54,10 @@
   left: 0;
   width: 100%;
 }
+.carousel-item{
+  height: 50vh;
+}
+
 
 
 
