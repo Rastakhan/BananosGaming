@@ -8,6 +8,9 @@
   .contain-res{
     width: 95%;
   }
+  .contain-resful{
+    width: 100%;
+  }
 }
 @media (min-width: 901px) {
   .dropdown:hover>.dropdown-menu {

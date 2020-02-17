@@ -1,9 +1,19 @@
 .contain{
   width: 100%;
 }
+.contain-resful{
+  width: 80%;
+}
 .contain-res{
   width: 80%;
 }
+.h-navbar{
+  height: 4rem;
+}
+.hd-navbar{
+  padding-top: 3.5rem;
+}
+
 .fixed{
     position: fixed;
     z-index: 1000;
