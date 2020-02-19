@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+  .news{
+    flex-direction: column;
+  }
   .hidden-es{
     display: none
   }
