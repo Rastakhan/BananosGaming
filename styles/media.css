@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+  .contain-50{
+    width: 100%;
+  }
   .news{
     flex-direction: column;
   }
