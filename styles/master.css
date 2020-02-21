@@ -135,11 +135,6 @@ html{
   display: flex;
 }
 
-
-.btn-banano{
-    background: #ffdc08!important;
-}
-
 .img-auto{
   width: auto;
   height: 100%;

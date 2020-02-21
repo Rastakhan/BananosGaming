@@ -1,6 +1,9 @@
 .contain{
   width: 100%;
 }
+.contain-w{
+  width: 85%;
+}
 .contain-resful{
   width: 80%;
 }
@@ -23,6 +26,12 @@
 }
 .color-blue{
   background: #009190;
+}
+.btn-banano{
+    background: #ffdc08!important;
+}
+.btn-banano:hover{
+    background: #fbe03f!important;
 }
 .hero{
   background-image: linear-gradient(to top, rgb(0, 145, 144, 0.69) 0%, rgba(172, 224, 249, .70) 100%), url(../img/b.jpeg);
@@ -89,6 +98,7 @@
   height: 10rem;
 
 }
+
 
 
 
