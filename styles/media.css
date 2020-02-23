@@ -32,14 +32,39 @@
   .cl-2{
     width: 100%;
   }
-
   .cl-es {
     overflow: hidden;
     object-fit: cover;
     object-position: center;
   }
+  .contain-30{
+    width: 100%;
+  }
+  .contain-70{
+    width: 100%;
+  }
+  .contain-45{
+    width: 100%;
+  }
+  .admin-div{
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .admin-div-main{
+    margin: 0;
+    margin-bottom: 1rem;
+  }
 
 }
+@media (min-width: 768px){
+  .contain-30{
+    width: 50%;
+  }
+  .contain-70{
+    width: 50%;
+  }
+}
+
 @media (max-width: 768px){
   .cl-md{
     width: 100%;
@@ -59,9 +84,13 @@
   .contain-resful{
     width: 100%;
   }
+  .contain-inv{
+    width: 90%;
+  }
   .contain-50{
     width: 100%;
   }
+
 }
 @media (min-width: 992px){
   .cl-lg{
@@ -79,6 +108,7 @@
   .cl-lg-3{
     width: 33%;
   }
+
 }
 @media (min-width: 1200px){
   .cl-xl{
