@@ -1,7 +1,4 @@
 @media (max-width: 576px) {
-  .contain-50{
-    width: 100%;
-  }
   .news{
     flex-direction: column;
   }
@@ -35,7 +32,7 @@
   .cl-2{
     width: 100%;
   }
-  
+
   .cl-es {
     overflow: hidden;
     object-fit: cover;
@@ -60,6 +57,9 @@
     width: 33%;
   }
   .contain-resful{
+    width: 100%;
+  }
+  .contain-50{
     width: 100%;
   }
 }
