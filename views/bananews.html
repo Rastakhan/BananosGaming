@@ -115,13 +115,13 @@
           <div id="carouselnews" class="carousel slide carousel-fade " data-ride="carousel">
             <div class="carousel-inner hv-50">
               <div class="carousel-item d-flex align-items-center active">
-                <img src="../img/first.jpg" class="d-block w-100 img-car img-fluid" alt="..." />
+                <img src="../img/first.jpg" class="w-100 carousel-img" alt="..." />
               </div>
               <div class="carousel-item d-flex align-items-center">
-                <img src="../img/second.jpg" class="d-block w-100 img-fluid" alt="..." />
+                <img src="../img/second.jpg" class="w-100 carousel-img" alt="..." />
               </div>
               <div class="carousel-item d-flex align-items-center">
-                <img src="../img/third.png" class="d-block w-100 img-fluid" alt="..." />
+                <img src="../img/third.png" class="w-100 carousel-img" alt="..." />
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselnews" role="button" data-slide="prev">
@@ -142,94 +142,152 @@
           <div class="contain-resful"><!-- section news hero -->
             <div class="contain"> <!-- section news hero control -->
               <div class="contain">
-                <span>Noticias</span>
+                <h3>Noticias</h3>
               </div>
-              <div class="contain">
-                <span>Tags</span>
-                <a href="#">PC</a>
-                <a href="#">PlayStation</a>
-                <a href="#">Xbox</a>
-                <a href="#">Nintendo</a>
+              <div class="contain flex flex-wrap">
+                <ul class="d-flex tag contain flex flex-wrap">
+                  <li class="link btn active" data-filter="tags">Tags</li>
+                  <li class="link btn " data-filter="pc">Pc</li>
+                  <li class="link btn " data-filter="playstation">PlayStation</li>
+                  <li class="link btn " data-filter="xbox">Xbox</li>
+                  <li class="link btn " data-filter="nintendo">Nintendo</li>
+                </ul>
               </div>
             </div><!-- /section news hero control -->
             <div class=""><!-- section news hero news -->
 
-              <div class="contain-res py-5"><!-- new -->
-                <div class="row align-items-center text-left">
-                  <div class="col-md-6">
-                    <img src="../img/Asset50.svg" alt="" />
+              <div class=" py-3 filter pc"><!-- new -->
+                <div class="row contain align-items-center text-left">
+                  <div class=" col-md-4">
+                    <a href="#">
+                      <img src="../img/Asset50.svg" alt="" />
+                    </a>
                   </div>
-                  <div class="col-md-6">
-                    <span>PC</span>
-                    <h2><b>Una noticia chingona</b></h2>
-                    <p><b>Un parrafito para al mero estilo banano</b></p>
-                    <span>18 de febrero del 2020 21:37</span>
+                  <div class="contain col-md-8 contain flex justify-content-center">
+                    <div class="contain-inv">
+                      <span>PC</span>
+                      <a href="#" class="text-dark">
+                        <h2><b>Una noticia chingona</b></h2>
+                      </a>
+                      <p><b>Un parrafito al mero estilo banano</b></p>
+                      <span>18 de febrero del 2020 21:37</span>
+                    </div>
                   </div>
                 </div>
               </div><!-- /new -->
 
-              <div class="contain-res py-5"><!-- new -->
-                <div class="row align-items-center text-left">
-                  <div class="col-md-6">
+              <div class="contain py-3 filter playstation"><!-- new -->
+                <div class="row contain align-items-center text-left">
+                  <div class="col-md-4">
                     <img src="../img/Asset20.svg" alt="" />
                   </div>
-                  <div class="col-md-6">
-                    <span>PlayStation</span>
-                    <h2><b>Una noticia chingona</b></h2>
-                    <p><b>Un parrafito para al mero estilo banano</b></p>
-                    <span>18 de febrero del 2020 21:37</span>
+                  <div class="col-md-8 contain flex justify-content-center">
+                    <div class="contain-inv">
+                      <span>PlayStation</span>
+                      <a href="#" class="text-dark">
+                        <h2><b>Una noticia chingona</b></h2>
+                      </a>
+                      <p><b>Un parrafito al mero estilo banano</b></p>
+                      <span>18 de febrero del 2020 21:37</span>
+                    </div>
                   </div>
                 </div>
               </div><!-- /new -->
 
-              <div class="contain-res py-5"><!-- new -->
-                <div class="row align-items-center text-left">
-                  <div class="col-md-6">
-                    <img src="../img/Asset30.svg" alt="" />
+              <div class="contain py-3 filter xbox"><!-- new -->
+                <div class="row contain align-items-center text-left">
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img src="../img/Asset30.svg" alt="" />
+                    </a>
                   </div>
-                  <div class="col-md-6">
-                    <span>Xbox</span>
-                    <h2><b>Una noticia chingona</b></h2>
-                    <p><b>Un parrafito para al mero estilo banano</b></p>
-                    <span>18 de febrero del 2020 21:37</span>
+                  <div class="col-md-8 contain flex justify-content-center">
+                    <div class="contain-inv">
+                      <span>Xbox</span>
+                      <a href="#" class="text-dark">
+                        <h2><b>Una noticia chingona</b></h2>
+                      </a>
+                      <p><b>Un parrafito al mero estilo banano</b></p>
+                      <span>18 de febrero del 2020 21:37</span>
+                    </div>
                   </div>
-                </div>
+                    </div>
               </div><!-- /new -->
 
-              <div class="contain-res py-5"><!-- new -->
-                <div class="row align-items-center text-left">
-                  <div class="col-md-6">
-                    <img src="../img/Asset60.svg" alt="" />
+              <div class="contain py-3 filter nintendo"><!-- new -->
+                <div class="row contain align-items-center text-left">
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img src="../img/Asset60.svg" alt="" />
+                    </a>
                   </div>
-                  <div class="col-md-6">
-                    <span>Nintendo</span>
-                    <h2><b>Una noticia chingona</b></h2>
-                    <p><b>Un parrafito para al mero estilo banano</b></p>
-                    <span>18 de febrero del 2020 21:37</span>
+                  <div class="col-md-8 contain flex justify-content-center">
+                    <div class="contain-inv">
+                      <span>Nintendo</span>
+                      <a href="#" class="text-dark">
+                        <h2><b>Una noticia chingona</b></h2>
+                      </a>
+                      <p><b>Un parrafito al mero estilo banano</b></p>
+                      <span>18 de febrero del 2020 21:37</span>
+                    </div>
+                  </div>
+                    </div>
+              </div><!-- /new -->
+
+              <div class="contain py-3 filter nintendo pc"><!-- new -->
+                <div class="row contain align-items-center text-left">
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img src="../img/Asset60.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-md-8 contain flex justify-content-center">
+                    <div class="contain-inv">
+                      <span>Nintendo / PC</span>
+                      <a href="#" class="text-dark">
+                        <h2><b>Una noticia chingona</b></h2>
+                      </a>
+                      <p><b>Un parrafito al mero estilo banano</b></p>
+                      <span>18 de febrero del 2020 21:37</span>
+                    </div>
                   </div>
                 </div>
+
               </div><!-- /new -->
 
             </div><!-- section news hero news -->
           </div><!-- /section news hero -->
 
-          <div class=""><!-- section news most comment -->
-            <h1>lo mas comentado</h1>
+          <div class="contaier-fluid heighest-new"><!-- section news most comment -->
+            <h3>Lo mas comentado</h3>
             <a href="bananart.html">
               <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset20.svg')">
-                <h2><b>Noticia mas comentada</b></h2>
-              </div>
-              <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset30.svg')">
-                <h2><b>Noticia mas comentada</b></h2>
-              </div>
-              <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset50.svg')">
-                <h2><b>Noticia mas comentada</b></h2>
-              </div>
-              <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset60.svg')">
-                <h2><b>Noticia mas comentada</b></h2>
+                <div class="w-100 heighest-new-div">
+                  <h2 class="text-banano"><b>Noticia mas comentada</b></h2>
+                </div>
               </div>
             </a>
-
+            <a href="#">
+              <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset30.svg')">
+                <div class="w-100 heighest-new-div">
+                  <h2 class="text-banano"><b>Noticia mas comentada</b></h2>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset50.svg')">
+                <div class="w-100 heighest-new-div">
+                  <h2 class="text-banano"><b>Noticia mas comentada</b></h2>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="news2 d-flex align-items-end" style=" background: url('../img/Asset60.svg')">
+                <div class="w-100 heighest-new-div">
+                  <h2 class="text-banano"><b>Noticia mas comentada</b></h2>
+                </div>
+              </div>
+            </a>
           </div><!-- section news most comment -->
 
 
@@ -253,6 +311,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.link').click(function(){
+          var valor = $(this).attr('data-filter');
+          if(valor == 'tags'){
+            $('.filter').show('1000');
+          }else {
+            $('.filter').not('.'+ valor).hide('1000');
+            $('.filter').filter('.'+ valor).show('1000');
+          }
+
+
+        });
+        $('ul .link').click(function(){
+          $(this).addClass('active').siblings().removeClass('active');
+        });
+      });
+
+    </script>
 
   </body>
 </html>

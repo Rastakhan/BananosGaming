@@ -11,8 +11,8 @@
   .contain-res{
     width: 95%;
   }
-  .contain-resful{
-    width: 100%;
+  .contain-inv{
+    width: 90%;
   }
   .hv-50{
     height: 25vh;
@@ -35,13 +35,7 @@
   .cl-2{
     width: 100%;
   }
-  .gallery > a {
-    width: 30%;
-    height: 15rem;
-  }
-  .gallery img {
-    box-shadow: none;
-  }
+  
   .cl-es {
     overflow: hidden;
     object-fit: cover;
@@ -64,6 +58,9 @@
   }
   .cl-md-3{
     width: 33%;
+  }
+  .contain-resful{
+    width: 100%;
   }
 }
 @media (min-width: 992px){
@@ -93,14 +90,10 @@
   .cl-xl-4{
     width: 33%;
   }
-
 }
 @media (min-width: 901px) {
   .dropdown:hover>.dropdown-menu {
     display: block;
-  }
-  .justify-content{
-    justify-content: flex-end;;
   }
 }
 /*

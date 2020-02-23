@@ -13,11 +13,28 @@
 .contain-50{
   width: 50%;
 }
+.contain-inv{
+  width: 100%;
+}
 .h-navbar{
   height: 4rem;
 }
 .hd-navbar{
   padding-top: 3.5rem;
+}
+.mt{
+  margin-top: .5rem!important;
+}
+.tag li{
+  background: #ffdc08;
+  margin-right: .3rem
+}
+.tag li:hover , .active {
+  background: #009190!important;
+}
+.carousel-img{
+  height: 100%;
+  object-fit: cover;
 }
 
 .fixed{
@@ -42,7 +59,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   position: relative;
   overflow: hidden;
 }
@@ -69,40 +86,104 @@
 .carousel-item{
   height: 50vh;
 }
+.img-sn{
+  object-fit: cover;
+  max-height: 50vh;
+}
+.img-gallery{
+   width: 100%;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.input{
+  background: transparent;
+  border: 0;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px 10px
+}
+.input::placeholder{
+  color: white;
+  font-family: 'Raleway';
+}
+.form input{
+  width: 49%;
+  margin-bottom: 1.5rem;
+}
+.form textarea{
+  margin-bottom: 1.5rem;
+}
+
+
+
+
 .cl-2{
   width: 45%;
 }
 /* Galley */
 .gallery{
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 40px 0;
   overflow: hidden;
+  align-items: center;
 }
 .gallery > a {
+  display: block;
+  position: relative;
   overflow: hidden;
+  box-shadow: 0 0 6px rgba(0,0,0,.5);
 }
 .gallery img {
   width: 100%;
-  height: 15rem;
-  margin: .5rem;
-  overflow: hidden;
+  vertical-align: top;
+  height: 300px;
+  margin: auto;
   object-fit: cover;
-  object-position: center;
-  box-shadow: 0 0 6px rgba(0,0,0,.5);
+  transition: transform 0.5s;
 }
-.gallery a:hover img{
+.gallery img:hover {
   filter: blur(2px);
-  transform: rotate(5deg) scale(1.5);
+  transform: rotate(10deg) scale(1.3);
 }
 /* /Galley */
-
+.heighest-new a{
+  text-decoration: none;
+}
 .news2{
   background-position: center!important;
   background-repeat: no-repeat!important;
   height: 10rem;
 
 }
-
-
+.heighest-new-div{
+  background-image: linear-gradient(to top, rgba(230, 233, 240, .7) 0%, rgba(238, 241, 245, 0) 100%);
+  transition: transform 0.5s;
+}
+.heighest-new-div:hover{
+  transition: 5s;
+  background-image: linear-gradient(to top, rgba(230, 233, 240, .7) 30%, rgba(238, 241, 245, 0) 100%);
+}
+.text-banano{
+  color: black;
+}
+.social-network a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #009190;
+}
+.social-network a:hover{
+  color: #2fdedd;
+}
 
 
 
@@ -124,4 +205,126 @@
 }
 .hv-100{
   height: 100vh;
+}
+
+
+
+
+/* Gallery */
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+.galeria > a{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.galeria img {
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.galeria a:hover img{
+  filter: blur(2px);
+  transform: rotate(10deg) scale(1.3);
+}
+.light-box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: transform .3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+.light-box img {
+  width: 75vw;
+  height: 75vh;
+}
+.light-box:target{
+  transform: scale(1);
+}
+.close{
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+.next{
+  display: block;
+  background: red;
+  color: white;
+  height: 30px;
+  width: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+/* /Gallery */
+
+
+
+
+.mayus{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+}
+.bg{
+  background: url('../img/bg.jpeg')  ;
+  height: 100%;
+}
+.bg-slide{
+  background: url('../img/BananosGaming.jpg')  ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+}
+
+.nav-button:hover{
+  background: #ffdc08;
+  border-radius: 1rem;
+}
+.dropdown-menu{
+  width: 25rem;
+}
+.dropdown-menu {
+  left: auto!important;
+  top: 2rem!important;
+  right: -1rem!important;
+}
+.flex{
+  display: flex;
+}
+.nav-item{
+  display: flex;
+  justify-content: flex-end;
+
 }
